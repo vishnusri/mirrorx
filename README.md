@@ -10,3 +10,9 @@ cd mirrorx
 npm install
 ```
 You can run the development server with `npm run dev` and access the page at http://localhost:3000.
+
+## Editing
+Only edit files in the `src` directory (which contains client-side JS, [SASS](http://sass-lang.com/guide), and image files) or `view` directory (which contains [Pug](https://pugjs.org/api/getting-started.html) templates). Watch `src` for changes and re-build it automatically by simply running
+```
+gulp
+```
