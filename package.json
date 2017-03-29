@@ -1,0 +1,41 @@
+{
+  "name": "mirrorx",
+  "version": "0.0.0",
+  "description": "Smart mirror implementation for UIC CS 522",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jlave2/mirrorx.git"
+  },
+  "keywords": [
+    "smart",
+    "mirror"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jlave2/mirrorx/issues"
+  },
+  "homepage": "https://github.com/jlave2/mirrorx#readme",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.24.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-browserify": "^0.5.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-sass": "^3.1.0",
+    "moment": "^2.18.1",
+    "nodemon": "^1.11.0",
+    "simpleweather": "^3.1.0",
+    "standard": "^9.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "pug": "^2.0.0-beta11"
+  }
+}
